@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        file-extension: yml
+        group: DEFAULT_GROUP
+        namespace: 3b34e69d-c905-4724-9fdf-082756bccfa6
+        prefix: common
+        server-addr: 82.157.173.86:8848
+      discovery:
+        ip: 10.130.76.34
+  profiles:
+    active: dev
